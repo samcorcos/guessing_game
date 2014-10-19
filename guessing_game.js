@@ -1,6 +1,6 @@
 if (Meteor.isClient) {
 
-    var number = Math.floor((Math.random() * 100) + 1);
+    number = Math.floor((Math.random() * 100) + 1);
 
 
 
