@@ -1,6 +1,10 @@
 if (Meteor.isClient) {
+
     var number = Math.floor((Math.random() * 100) + 1);
 
+
+
+}
 
 //   // counter starts at 0
 //   Session.setDefault("counter", 0);
@@ -18,9 +22,3 @@ if (Meteor.isClient) {
 //     }
 //   });
 // }
-//
-// if (Meteor.isServer) {
-//   Meteor.startup(function () {
-//     // code to run on server at startup
-//   });
-}

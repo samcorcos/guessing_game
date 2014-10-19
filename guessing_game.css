@@ -2,17 +2,22 @@
 
 #game_title {
     text-align: center;
-    margin: 2em;
+    margin: 4rem 2rem 2rem 2rem ;
 }
 
 #guess_submit_button {
     display: block;
     margin: auto;
+    margin-top: 1em;
 }
 
 #guess_input {
     display: block;
     margin: auto;
     padding: 10px;
+    text-align: center;
+}
+
+#guess_label {
     text-align: center;
 }
