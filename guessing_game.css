@@ -1,1 +1,18 @@
 /* CSS declarations go here */
+
+#game_title {
+    text-align: center;
+    margin: 2em;
+}
+
+#guess_submit_button {
+    display: block;
+    margin: auto;
+}
+
+#guess_input {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}

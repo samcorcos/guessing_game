@@ -1,14 +1,19 @@
 <head>
-  <title>guessing_game</title>
+  <title>Guessing Game</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
 
-  {{> hello}}
+    <div id="header" class="header">
+        <h1 id="game_title">Guessing Game</h1>
+    </div>
+
+  {{> guess}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+
+
+<template name="guess" id="">
+    <input type="text" id="guess_input">
+    <button type="submit" id="guess_submit_button">Submit Guess</button>
 </template>
