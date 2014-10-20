@@ -1,25 +1,21 @@
 <head>
   <title>Guessing Game</title>
-  <script src="guessing_game.js"></script>
 </head>
 
 <body>
-    <div id="header" class="header">
-        <h1 id="game_title">Guessing Game</h1>
-    </div>
-
-  {{> guess}}
-
-  <script>console.log(number);</script>
-
+    {{> random}}
 </body>
 
-
-
-<template name="guess" id="">
-    <form id="guessing_form">
-        <label id="guess_label" for="guess_input">Guess a number between 1 and 100</label>
-        <input type="text" id="guess_input">
-        <button type="submit" class="btn btn-default" id="guess_submit_button">Submit Guess</button>
+<template name="random">
+    {{number}}
+    {{result}}
+    <header>
+        <h1 id="game-title">Guessing Game</h1>
+    </header>
+    <form id="guess-form">
+        <label id="guess-label" for="guess">Guess a number between 1 and 100</label>
+        <input type="number" id="guess" placeholder="Guess a number..." required>
+        <input type="button" id="submit" value="Submit Guess" class="btn btn-default">
     </form>
+
 </template>
