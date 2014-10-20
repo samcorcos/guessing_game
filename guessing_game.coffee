@@ -1,7 +1,8 @@
+
+
 Template.random.rendered = ->                           # on render
     number = Math.floor((Math.random() * 100) + 1)      # create a "number" variable, and set it to a random number between 1-100
     Session.set "number", number                        # create a session variable called "number" and set it equal to the randomly generated number
-    console.log(number)
 
 Template.random.helpers
     "number": -> Session.get "number"       # creating "number" helper
