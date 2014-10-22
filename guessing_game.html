@@ -7,15 +7,14 @@
 </body>
 
 <template name="random">
-    {{number}}
-    {{result}}
-    <header>
-        <h1 id="game-title">Guessing Game</h1>
-    </header>
-    <form id="guess-form">
+    <div class="main {{result}}">
+        {{number}}
+        {{result}}
+        <header>
+            <h1 id="game-title">Guessing Game</h1>
+        </header>
         <label id="guess-label" for="guess">Guess a number between 1 and 100</label>
         <input type="number" id="guess" placeholder="Guess a number..." required>
         <input type="button" id="submit" value="Submit Guess" class="btn btn-default">
-    </form>
-
+    </div>
 </template>

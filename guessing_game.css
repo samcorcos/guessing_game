@@ -21,3 +21,21 @@
 #guess-label {
     text-align: center;
 }
+
+.above {
+  background-color: #FF0000;
+}
+.below {
+  background-color: #0000FF;
+}
+.equals {
+  background-color: #000000;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
